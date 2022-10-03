@@ -34,11 +34,11 @@ em{
 .metal{
     font-size:36px
 }
-/*.metal:hover{
+.description:hover{
     background-color:burlywood;
     padding:1vw;
     color:white;
-}*/
+}
 #BASE {
     display:flex; 
     font-size:2.5vw;
