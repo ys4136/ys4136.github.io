@@ -1,0 +1,82 @@
+body {
+    background-color: bisque;
+    /*cursor:url('peach.png'), auto;*/
+}
+#HEADING{
+    text-align: center;
+}
+img{
+    /*background-color: pink;
+    width:30vw;
+    border: solid black 10px;
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+p {
+    background-color:bisque;
+    font-size: 36px;
+    /*padding: 1vw;*/
+    /*border:dotted pink 7px;*/
+    /*margin: 4vw;*/
+}
+
+mark{ 
+    /*padding: 10px;
+    margin:2vw;*/
+    font-family: cursive;
+}
+em{
+    color:brown;
+    font-size: 40px;
+}
+.metal{
+    font-size:36px
+}
+/*.metal:hover{
+    background-color:burlywood;
+    padding:1vw;
+    color:white;
+}*/
+#BASE {
+    display:flex; 
+    font-size:2.5vw;
+    flex-direction: column;
+    justify-content:flex-start;
+    /*padding: 1vw;*/
+    /*border:dotted pink 7px;*/
+    /*margin: 4vw;*/
+
+}
+#DOD {
+    /*display:flex； */
+    font-size:4vw;
+    background-color:lightblue;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+#DOD p {
+    background-color: green;
+    padding: 2vw;
+    margin:10px;
+
+}
+
+#AIM {
+    display: flex;
+    background-color:burlywood;
+    text-align: center;
+    justify-content: center;
+    /*margin:20px;*/
+
+}
+#AIM section {
+    text-align: center;
+    font-size: 60px;
+    /*margin:30vw;
+    padding:20px;*/
+    font-family:cursive; 
+    text-transform: uppercase;
+}
