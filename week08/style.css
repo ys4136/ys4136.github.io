@@ -1,0 +1,289 @@
+* {
+    margin:0;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .textone{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: moverone 10s infinite; 
+    }
+  @keyframes moverone{
+    0%{transform:translateX(1500px);
+      
+    }
+    25%{
+      transform: translateY(900px);
+    }
+    50%{
+      transform: translateX(1000px);
+    }
+    75%{
+      transform: translateY(700px);
+    }
+    100%{
+      transform: translateX(1000px);
+    }
+  }
+  .texttwo{
+    font-size: 58px;
+    font-family:'Times New Roman', Times, serif;
+    /*position:absolute;*/
+    left:25%;
+    animation: moverone 20s infinite;
+  }
+  .textthree{
+    font-size:45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    left: 65%;
+    animation: moverone 20s infinite;
+  }
+  .textfour{
+    font-size:38px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    left:10%;
+    animation: moverone 17s infinite;
+  }
+  .textfive{
+    font-size:40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   /*position:absolute;*/
+    left:5%;
+    animation: movertwo 15s infinite;
+  }
+  .textsix{
+    font-size:80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    left:0%;
+    top:50%;
+    animation: movertwo 23s infinite;
+  }
+  .textseven{
+    font-size:60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*position:absolute;*/
+    left:15%;
+    animation: moverone 32s infinite;
+  }
+  .texteight{
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position:absolute;
+    left: 70%;
+    top:80%;
+    animation: movertwo 21s infinite;
+  }
+  .textnine{
+    font-size:23px;
+    font-family:'Courier New', Courier, monospace;
+   position:absolute;
+    left: 80%;
+    animation: moverone 26s infinite;
+  }
+  .textten{
+    font-size:53px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:absolute;
+    left:90%;
+    animation:moverone 31s infinite;
+  }
+  @keyframes movertwo{
+    50%{
+      transform: translateX(1500px);
+    }
+  }
+  a.link:link{
+    color:white;
+    text-decoration:none;
+  }
+  a.link:visited {
+    color: white;
+  }
+  
+  .boxes{
+      background-color:#003D5F;
+      display: flex;
+      color: white;
+      padding: 20px;
+      font-size: 40px;
+      justify-content: left;
+      margin: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 5;
+  }
+  
+  .grayboxes {
+      background-color:gray;
+      display: flex;
+      color: white;
+      padding: 20px;
+      font-size: 40px;
+      justify-content: left;
+      margin: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 5;
+  }
+  
+  .parents, .book, .reading {
+    background-color: white;
+  }
+  
+  .letters, .utopia {
+    background-color: lightblue;
+  }
+  
+  .book {
+    color: gray;
+  }
+  
+  .want, .home, .server {
+    display:flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+  }
+  
+  a.wantbook:visited {
+      text-decoration:none;
+    color: gray;
+  }
+  
+  a.want:link {
+     text-decoration:none;
+    color: white;
+  }
+  
+  a.want:visited {
+     text-decoration:none;
+    color: white;
+  }
+  
+  a.home:link {
+     text-decoration:none;
+    color: white;
+  }
+  
+  a.home:visited {
+     text-decoration:none;
+    color: white;
+  }
+  
+  a.server:link {
+     text-decoration:none;
+    color: white;
+  }
+  
+  a.server:visited {
+     text-decoration:none;
+    color: white;
+  }
+  
+  #bookimg {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+     border: 10px solid black;
+  
+  }
+  
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 80px;
+    margin-top: -30px;
+    
+  
+  }
+  
+  .bookandfriends {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+  .parentsimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+  }
+  
+  .mother, .kid, .father{
+    width: 13%;
+    transition-duration: 2s, 1s, 0.5s, 0.5s;
+    transition-delay: 0s, 0.5s, 1s, 1.5s;
+  }
+  
+  .mother:hover{
+    opacity: 0;
+  }
+  
+  .father:hover{
+    opacity: 0;
+  }
+  
+  .floor {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    bottom:0;
+    position: fixed;
+  }
+  .bgimg {
+    padding-top: 50px;
+    width:100%;
+  }
+  
+  .mp4{
+  padding-top: 100px;
+   
+  }
+  
+  .wantbook {
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    font-size: 40px;
+  }
+  a.wantbook:link {
+    text-decoration:none;
+    color: gray;
+  }
+  
+  
+  
+  .reflections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 120px;
+   
+  }
+  
+  .kat, .sarah {
+     width: 27%;
+      border: 10px solid #003D5F;
+  }
+  
+  
