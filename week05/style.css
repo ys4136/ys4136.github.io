@@ -84,3 +84,6 @@ a:visited {
   .solider:hover {
     opacity: 0;
   }
+  em{
+    color:brown;
+  }
