@@ -5,15 +5,6 @@ body {
 #HEADING{
     text-align: center;
 }
-img{
-    /*background-color: pink;
-    width:30vw;
-    border: solid black 10px;
-    padding: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;*/
-}
 p {
     background-color:bisque;
     font-size: 36px;
@@ -80,3 +71,10 @@ em{
     font-family:cursive; 
     text-transform: uppercase;
 }
+a:link{
+    color:white;
+    text-decoration:none;
+  }
+a:visited {
+    color: white;
+  }

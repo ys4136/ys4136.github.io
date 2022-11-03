@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+#HEADING{
+  text-align: center;
+}
+p{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-size: 50px;
+    color:white;
+}
+.photos {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+ /* .photos img {
+    width: 100%;
+    max-width: 100%;
+  }
+  sarah's edit*/
+  .top-image {
+    position: absolute;
+    left: 334.5px;
+    top: 0;
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  .top-image:hover {
+    position: absolute;
+    left: 334.5px;
+    top: 0;
+    opacity: 1;
+   /*width: 95%;
+    padding-top: 25px;*/
+  }
+  100%;
+  }
+  /*sarah's edit*/
+  .top-image {
+    position: absolute;
+    left: 334.5px;
+    top: 0;
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  .top-image:hover {
+    position: absolute;
+    left: 334.5px;
+    top: 0;
+    opacity: 1;
+    /*width: 95%;
+    padding-top: 25px;*/
+  }
+  a:link{
+    color:white;
+    text-decoration:none;
+  }
+a:visited {
+    color: white;
+  }
+  p.frame{
+    color:white;
+    font-size: 30px;
+    text-align: left;
+  }
+  p.kill{
+    color:white;
+    font-size: 30px;
+    text-align: left;
+    left: 0%;
+  }
+  .bullet {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  .solider:hover {
+    opacity: 0;
+  }
