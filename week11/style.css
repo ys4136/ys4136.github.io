@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.buttonsparty {
+  position:relative;
+}
+.funkybox {
+   max-width: 100%;
+  position: relative;
+}
+  
+#slide {
+  max-width: 100%;
+}
+
+#discoball {
+  max-width: 20%;
+   z-index: 3;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  
+}
+
+button {
+   background-color: rgba(76, 175, 80, 0);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  z-index: 3;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+
+}
+
+
+#playPauseBTN1 {
+   position: absolute;
+  left:22%;
+  top: 36%;
+ 
+}
+
+#playPauseBTN2 {
+   position: absolute;
+  left:42%;
+  top: 36%;
+
+}
+
+#playPauseBTN3 {
+   position: absolute;
+  left:62%;
+  top: 36%;
+
+}
+
+#playPauseBTN4 {
+   position: absolute;
+  left:18%;
+  top: 50%;
+ 
+}
+
+#playPauseBTN5 {
+   position: absolute;
+  left:41%;
+  top: 50%;
+
+}
+
+#playPauseBTN6 {
+   position: absolute;
+  left:65%;
+  top: 50%;
+
+}
