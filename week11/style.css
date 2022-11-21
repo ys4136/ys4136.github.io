@@ -1,85 +1,102 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #777777;
+	font-family: 'Roboto', Helvetica, sans-serif;
+  color:white;
+}
+
+.app {
+	display: flex;
+	flex-flow: column;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.lists {
+	display: flex;
+  justify-content:space-evenly;
+	flex: 1;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.lists .list {
+  font-size:30px;
+  color:white;
+  
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+
+	width: 100%;
+	min-width: 350px;
+	max-width: 450px;
+	height: 320%;
+	min-height: 500px;
+
+	background-color: rgba(0, 0, 0, 0.1);
+	margin: 0 15px;
+	padding: 8px;
+	transition: all 0.2s linear;
+}
+
+.lists .list .list-item {
+	border-radius: 8px;
+	padding: 15px 20px;
+	text-align: center;
+	margin: 4px 0px;
+}
+.button{
+    font-size:20px;
+    background-color: #8E8E8E; 
+    height:30px;
+    border: 4px;
+    border-color: #666566;
+    border-radius: 10%;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+}
+.button:active{
+  background-color: #464646;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.2s;
+}
+p{
+  
+  text-align:center;
+  font-size:80px;
+}
+h1{
+  text-align:center;
+  top:50%;
+  margin-top:220px;
+}
+em{
+  font-size:120px;
+}
+ a:link{
+    color:white;
+    text-decoration:none;
   }
-
-
-.buttonsparty {
-  position:relative;
-}
-.funkybox {
-   max-width: 100%;
-  position: relative;
-}
+  a:visited {
+    color: white;
+  }
   
-#slide {
-  max-width: 100%;
-}
-
-#discoball {
-  max-width: 20%;
-   z-index: 3;
-  position: absolute;
-  top: 0%;
-  left: 40%;
-  
-}
-
-button {
-   background-color: rgba(76, 175, 80, 0);
-  border: none;
-  color: white;
-  padding: 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 2vw;
-  z-index: 3;
-  position: absolute;
-  width: 20%;
-  height: 20%;
-
-}
-
-
-#playPauseBTN1 {
-   position: absolute;
-  left:22%;
-  top: 36%;
- 
-}
-
-#playPauseBTN2 {
-   position: absolute;
-  left:42%;
-  top: 36%;
-
-}
-
-#playPauseBTN3 {
-   position: absolute;
-  left:62%;
-  top: 36%;
-
-}
-
-#playPauseBTN4 {
-   position: absolute;
-  left:18%;
-  top: 50%;
- 
-}
-
-#playPauseBTN5 {
-   position: absolute;
-  left:41%;
-  top: 50%;
-
-}
-
-#playPauseBTN6 {
-   position: absolute;
-  left:65%;
-  top: 50%;
-
-}
