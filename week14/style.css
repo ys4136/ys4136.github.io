@@ -1,0 +1,38 @@
+* {
+    margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  body{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  canvas {
+  width: 800px;
+  height: 500px;
+  border: 7px solid orange;
+    background-color: lightblue;
+   } 
+  
+  .startButton {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+     transform: translate(-50%, 0);
+    background: orange;
+    color: white;
+    padding: 50px 200px;
+    border-radius: 5px;
+    z-index: 100;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 50px;
+    
+  }
+  
+  
