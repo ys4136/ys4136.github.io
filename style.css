@@ -56,7 +56,7 @@ img{
 .balloon{
   animation: fly 25s linear infinite;
   top: 0;
-left: 0;
+right: 0;
 position: fixed;
 z-index: 999;
 pointer-events: none;
